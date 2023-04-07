@@ -13,7 +13,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .card {
@@ -25,10 +25,10 @@ body {
     justify-content: center;
     align-items: center;
 
-    width: 340px;
+    max-width: 100%;
 
     text-align: center;
-    padding: 20px;
+    padding: 1.3rem;
 }
 
 
@@ -40,14 +40,14 @@ body {
     width: 280px;
 }
 
-.text h2 {
-    font-size: 20px;
+.text h1 {
+    font-size: 1.2rem;
     color: hsl(218, 44%, 22%);
-    padding: 20px 0;
+    margin: 1.3rem 0px;
 }
 
 .text p {
-    font-size: 15px;
+    font-size: 0.9375rem;
     color:hsl(220, 15%, 55%);
-    padding-bottom: 15px;
+    margin-bottom: 0.9375rem;
 }
